@@ -1,0 +1,43 @@
+.big-header{
+    position: sticky;
+    top:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgba(0,0,0,0.6);
+    height:10vh;
+    color:white;
+    transition: all 0.5;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    
+}
+.Header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header-left ul{
+ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+
+
+}
+.Header-left ul li {
+    margin-right: 20px; 
+}
+.Header-right ul{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   padding: 0 20px; 
+    
+}
+.Header-right ul li {
+    margin-right: 10px; 
+}

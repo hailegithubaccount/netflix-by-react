@@ -1,0 +1,45 @@
+.big-footer{
+    background-color: #111;
+    color:grey;
+    display:flex;
+    justify-content: center;
+
+}
+.Footer{
+    width:60%;
+
+}
+.FooterIcon{
+    width:12%;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.Footer-data{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer-data ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12vh;
+
+}
+.Footer-data ul li{
+    cursor: pointer;
+}
+.Srvice-code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #fff 1px solid;
+    width: 15%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.copy-write{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
