@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import axios from '../../utils/axios';
 import requests from '../../utils/requests';
+import './Banner.css';
 
 export default function Banner() {
     const[Movies,setMovies]=useState({});
+
     useEffect(()=>{
         (async()=>{
             try{
@@ -19,6 +21,9 @@ export default function Banner() {
             
     })()
     },[]);
+    function truncate(str,n){
+        return str?.length>n?str.substr(0,n-1)+'...':str;
+    }
   return (
     <div
         className="banner"
@@ -40,7 +45,8 @@ export default function Banner() {
                 <button className='banner_button'>my list</button>
             </div>
        
-      
+       <h1 className='banner_description'>
+        {truncate(Movies?.overview,150)}</h1>    
     </div>
     <div className='banner_fadeBottom'/>
     </div>
