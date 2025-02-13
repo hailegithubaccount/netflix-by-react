@@ -23,12 +23,14 @@
 }
 .banner_button{
     cursor: pointer;
-    color: #fff;
+    color: orange;
     outline: none;
     border: none;
     font-size: 1.2rem;
     font-weight: 700;
     border-radius: 0.2vw;
+    margin-left:2rem;
+    padding:1rem;
 
 }
 .play{
